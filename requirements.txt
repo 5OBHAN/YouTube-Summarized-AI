@@ -1,0 +1,8 @@
+gradio
+youtube-transcript-api
+yt-dlp
+transformers
+torch
+langchain
+langchain_huggingface
+nltk
