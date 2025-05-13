@@ -1,4 +1,3 @@
-from csv import Error
 from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound 
 import yt_dlp
 import re

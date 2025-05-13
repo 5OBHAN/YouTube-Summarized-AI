@@ -1,5 +1,5 @@
-from models.led_model import summarize_led
-from models.bart_model import summarize_bart
+from services.ai_models.led import summarize_led
+from services.ai_models.bart import summarize_bart
 
 def summarize_video(title, uploader, transcript, model_choice):
     if model_choice == "LED":
