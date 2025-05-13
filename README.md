@@ -18,12 +18,22 @@ pip install -r requirements.txt
 ```
 
 ```bash
-# 2. Run the application
+# 2. Login to Hugging Face (by using an Access Token from your account)
+huggingface-cli login
+```
+
+> **Creating new tokens:** https://huggingface.co/settings/tokens
+>
+> **Learn more:** https://huggingface.co/docs/hub/security-tokens#user-access-tokens
+
+
+```bash
+# 3. Run the application
 python app.py
 ```
 
 ```bash
-# 3. Visit the local URL
+# 4. Visit the local URL
 http://127.0.0.1:7860  # Usually
 ```
 
